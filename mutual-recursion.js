@@ -1,6 +1,6 @@
 a = (foo) => {
 	if (foo > 20) return foo;
-	return b(foo+2);
+	return b(foo + 2);
 }
 
 b = (foo) => {
@@ -8,5 +8,7 @@ b = (foo) => {
 }
 
 c = (foo) => {
-	return a(foo*2);
+	return a(foo * 2);
 }
+
+a(1) // 39
